@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c53ab5737ec51c4f9e63eba39d9dc1c, type: 3}
+  m_Name: ExtremeDexterity
+  m_EditorClassIdentifier: 
+  stackLimit: 2147483647
+  attributes:
+  - definition: {fileID: 11400000, guid: 4526980dfbb2c35429753e8f0674449f, type: 2}
+  - definition: {fileID: 11400000, guid: 44f9262421908d94eb32aaa2add264e3, type: 2}
+  - definition: {fileID: 11400000, guid: a09ce47faab00804eadb0bfb128fe21c, type: 2}

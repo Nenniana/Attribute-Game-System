@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e058981dfd9a546a851924b460a485, type: 3}
+  m_Name: StrengthSet
+  m_EditorClassIdentifier: 
+  mainAttribute: {fileID: 11400000, guid: 699110f6e8f28fb4eaa9411890d11fe9, type: 2}
+  attributes:
+  - {fileID: 11400000, guid: ef70bb4ddf30bf54faa4bfb3c69c0bba, type: 2}
+  - {fileID: 11400000, guid: d588950ccd4f5c747bc746b1c5e443e6, type: 2}
+  - {fileID: 11400000, guid: 64a2f7c0abd92454793fe7a23b55930f, type: 2}
+  calculationGroup: {fileID: 11400000, guid: f3776d4d47f5ac2488a678b353392c6c, type: 2}

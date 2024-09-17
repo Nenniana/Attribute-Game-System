@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36e058981dfd9a546a851924b460a485, type: 3}
+  m_Name: CriticalChanceSet
+  m_EditorClassIdentifier: 
+  mainAttribute: {fileID: 11400000, guid: 7084761a415f5294f86e9045752a7a1a, type: 2}
+  attributes:
+  - {fileID: 11400000, guid: 7aa195e3a96d5c842b353250b6dc1f10, type: 2}
+  - {fileID: 11400000, guid: a5a0c98d1ed41134c87ba7078d4fe342, type: 2}
+  - {fileID: 11400000, guid: 6eb124e425193bc4695a1c5f1fac596d, type: 2}
+  calculationGroup: {fileID: 11400000, guid: f3776d4d47f5ac2488a678b353392c6c, type: 2}

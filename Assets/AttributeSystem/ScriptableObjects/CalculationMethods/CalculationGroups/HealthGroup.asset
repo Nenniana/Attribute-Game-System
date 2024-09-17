@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5330f1a0f6353af4d8b47d775d1a53c9, type: 3}
+  m_Name: HealthGroup
+  m_EditorClassIdentifier: 
+  strategies:
+  - {fileID: 11400000, guid: 279b7662af7d37943a984691c6e2a1d9, type: 2}
+  - {fileID: 11400000, guid: f4b515c73d77a194f830d45f721b4012, type: 2}
+  - {fileID: 11400000, guid: 7fd515015e9e4584c93c8ef09fa0c9cc, type: 2}
+  - {fileID: 11400000, guid: 89dce6b40a6bbee4fb6a084520ec76a5, type: 2}
+  - {fileID: 11400000, guid: 8ee58302a237fd448a5dbeb37048ab63, type: 2}
