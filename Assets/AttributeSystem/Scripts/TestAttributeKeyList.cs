@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestAttributeKeyList : MonoBehaviour
 {
-    public AttributeName attributeName;
+    public AttributeSystem.Attribute attributeName;
 
     AttributeManager AttributeManager { get; }
 

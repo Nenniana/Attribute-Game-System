@@ -16,7 +16,7 @@ public class TestController : MonoBehaviour
     } 
 
     [Button]
-    private void Request(AttributeName attributeName) {
+    private void Request(Attribute attributeName) {
         testTower.PoolMember.GetCalculatedAttributeValue(attributeName);
     }
 
