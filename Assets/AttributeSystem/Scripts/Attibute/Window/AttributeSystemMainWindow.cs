@@ -16,14 +16,14 @@ namespace AttributeSystem
         
         protected override OdinMenuTree BuildMenuTree()
         {
-            createAttributesWindow = AssetDatabase.LoadAssetAtPath<CreateAttributesWindow>("Assets/Attribute System/ScriptableObjects/Windows/CreateAttributeWindow.asset");
+            createAttributesWindow = AssetDatabase.LoadAssetAtPath<CreateAttributesWindow>("Assets/AttributeSystem/ScriptableObjects/Windows/CreateAttributeWindow.asset");
 
             OdinMenuTree tree = new OdinMenuTree(true, GetTreeConfig()) {
                 { "Create Attributes",                             createAttributesWindow,                                                   EditorIcons.PenAdd }
             };
 
-            tree.AddAllAssetsAtPath("Enhance Attributes", "Assets/Attribute System/ScriptableObjects/Attributes/Enhance", typeof(EnhanceAttributeDefinition), true).AddThumbnailIcons().SortMenuItemsByName();
-            tree.AddAllAssetsAtPath("Main Attributes", "Assets/Attribute System/ScriptableObjects/Attributes/Main", typeof(BaseAttributeDefinition), true).AddThumbnailIcons().SortMenuItemsByName();
+            tree.AddAllAssetsAtPath("Enhance Attributes", "Assets/AttributeSystem/ScriptableObjects/Attributes/Enhance", typeof(EnhanceAttributeDefinition), true).AddThumbnailIcons().SortMenuItemsByName();
+            tree.AddAllAssetsAtPath("Main Attributes", "Assets/AttributeSystem/ScriptableObjects/Attributes/Main", typeof(BaseAttributeDefinition), true).AddThumbnailIcons().SortMenuItemsByName();
 
             return tree;
         }
