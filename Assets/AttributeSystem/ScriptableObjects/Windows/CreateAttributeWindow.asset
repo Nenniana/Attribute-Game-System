@@ -21,7 +21,7 @@ MonoBehaviour:
     createType: 0
   - type: 30
     typeName: Multiplicative
-    createType: 0
+    createType: 1
   - type: 40
     typeName: MultiplicativeMore
     createType: 0

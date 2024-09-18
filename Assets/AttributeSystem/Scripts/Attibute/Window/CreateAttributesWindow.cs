@@ -35,8 +35,8 @@ namespace AttributeSystem
     [CreateAssetMenu(fileName = "CreateAttributeWindow", menuName = "Attributes/Windows/CreateAttributeWindow", order = 1)]
     public class CreateAttributesWindow : ScriptableObject
     {
-        private const string attributeBasePath = "Assets/Attribute System/ScriptableObjects/Attributes/";
-        private const string setBasePath = "Assets/Attribute System/ScriptableObjects/AttributeSets/";
+        private const string attributeBasePath = "Assets/AttributeSystem/ScriptableObjects/Attributes/";
+        private const string setBasePath = "Assets/AttributeSystem/ScriptableObjects/AttributeSets/";
 
         [SerializeField]
         [TableList(AlwaysExpanded = true, DrawScrollView = false)]
