@@ -46,25 +46,16 @@ This project is a flexible, extensible, and performance-optimized attribute mana
 
 ### 7. **Rounding Strategies**
    - Each attribute can have its own rounding method. For example, health can be rounded to the nearest whole number, while damage can be rounded to the nearest decimal.
-   - Developers can customize rounding rules based on the type of attribute.
+   - Developers can customize rounding rules based on the type of base attribute.
 
 ### 8. **Event System**
    - Base attributes support three types of events, allowing developers to react when values change:
      - `valueChangedToFromDiff`: Provides the new value, the previous value, and the difference between them.
      - `valueChangedToFrom`: Provides the new value and the previous value.
      - `valueChangedTo`: Provides only the new value.
-   - This system enables entities to respond dynamically to attribute changes in real-time.
-
-## Usage
-
-1. **Create Base Attributes**: Define core attributes such as health, strength, dexterity, etc.
-2. **Add Enhanced Attributes**: Apply additive, increased, and more modifiers to these base attributes.
-3. **Configure Sets**: Group related attributes into sets, configure the calculation order, and apply rounding strategies as needed.
-4. **Use the Attribute System Window**: Easily manage and create new attributes through the Attribute System window.
-5. **Apply and Remove Modifiers**: Modify attributes using items, buffs, or other game mechanics while preserving original values when modifications are removed.
 
 ## Installation
 
 1. Clone or download this repository.
-2. Add the scripts to your Unity project.
-3. Start by creating base attributes and configuring sets in your game’s scripts.
+2. Add the the `Attribute System` to your script / asset folder in your Unity project.
+3. Creating base- and enhance attributes, and sets in the Attribute inspector window, or use the ready-made selection.
