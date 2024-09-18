@@ -21,7 +21,7 @@ MonoBehaviour:
     createType: 0
   - type: 30
     typeName: Multiplicative
-    createType: 1
+    createType: 0
   - type: 40
     typeName: MultiplicativeMore
     createType: 0
@@ -31,6 +31,6 @@ MonoBehaviour:
   - type: 60
     typeName: Negative
     createType: 1
-  attributeName: Wisdom
-  calculationGroup: {fileID: 11400000, guid: 1e11a59836689d949b4f42163347e401, type: 2}
-  createAndAddToSet: 1
+  attributeName: AttacksPerTurn
+  calculationGroup: {fileID: 11400000, guid: f3776d4d47f5ac2488a678b353392c6c, type: 2}
+  createAndAddToSet: 0
