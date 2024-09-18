@@ -2,6 +2,9 @@
 
 This project is a flexible, extensible, and performance-optimized attribute management system for Unity, written in C#. It handles any type of numerical attributes, such as strength, health, or custom-defined properties. The system allows attributes to be modified without losing their original values, making it suitable for a variety of gameplay scenarios.
 
+## Project Status
+This project is currently a work in progress and is not yet feature-complete. While it offers several key functionalities, further improvements and features are still being actively developed.
+
 ## Key Features
 
 - **Performance first**: Attributes can be marked "dirty" and recalculated only when requested, or calculated immediately based on the project's needs.
