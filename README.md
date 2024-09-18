@@ -58,4 +58,4 @@ This project is a flexible, extensible, and performance-optimized attribute mana
 
 1. Clone or download this repository.
 2. Add the the `Attribute System` to your script / asset folder in your Unity project.
-3. Creating base- and enhance attributes, and sets in the Attribute inspector window, or use the ready-made selection.
+3. Creating base-, enhance attributes, and sets in the Attribute inspector window, or use the ready-made selection.
