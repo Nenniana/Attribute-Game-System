@@ -23,7 +23,7 @@ This project is a flexible, extensible, and performance-optimized attribute mana
      - **More**: Applies a final multiplier after all other calculations (e.g., total value * 2).
 
 ### 2. **Attribute Sets**
-   - **Sets**: A group of related attributes with a base attribute and its enhanced modifiers. Developers can define how these attributes are calculated using a custom **Calculation Group**, which organizes the order in which modifiers are applied:
+   - **Sets**: A group of related attributes with a base attribute and its enhance modifiers. Developers can define how these attributes are calculated using custom **Calculation Groups**, which defines the order in which modifiers are applied:
      - Base calculation
      - Additive modifiers
      - Increased multipliers
@@ -34,8 +34,8 @@ This project is a flexible, extensible, and performance-optimized attribute mana
    - Developers can choose whether an attribute should be recalculated immediately (e.g., health) or deferred (e.g., strength).
 
 ### 4. **Attribute System Window**
-   - A dedicated Unity editor window allows developers to view all current base and enhanced attributes. 
-   - New attributes can be created through an intuitive interface. Developers can define the types of attributes to be created (e.g., Base, Additive) and whether to create an accompanying Set with a predefined calculation order.
+   - A dedicated Unity editor window (Attribute -> Main) allows developers to view all current base and enhanced attributes. 
+   - New attributes can be created through this interface. Developers can define the types of attributes to be created (e.g., Base, Additive) and whether to create an accompanying Set with a predefined calculation order.
 
 ### 5. **Inspector Integration**
    - Attributes can be exposed in the Unity Inspector using a dropdown selection instead of manually typing attribute names as strings. This reduces errors and improves usability for designers and developers.
