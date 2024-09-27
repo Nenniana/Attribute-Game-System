@@ -11,7 +11,6 @@ namespace AttributeSystem
 {
     public interface IAttributeSource
     {
-        List<EnhanceAttributeInstance> SourceAttributes { get; }
-        virtual HashSet<EnhanceAttributeInstance> GetAttributes() { return SourceAttributes.ToHashSet(); }
+        IReadOnlyCollection<EnhanceAttributeInstance> GetAttributes();
     }
 }

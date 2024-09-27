@@ -5,7 +5,6 @@
 /// The SourceAttributes property returns the attributes list. 
 /// </summary>
 
-using System;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -17,6 +16,10 @@ namespace AttributeSystem
     {
         [SerializeField][TableList(AlwaysExpanded = true, DrawScrollView = false)]
         private List<EnhanceAttributeInstance> attributes;
-        public List<EnhanceAttributeInstance> SourceAttributes => attributes;
+
+        public IReadOnlyCollection<EnhanceAttributeInstance> GetAttributes()
+        {
+            return new HashSet<EnhanceAttributeInstance>(attributes);
+        }
     }
 }
