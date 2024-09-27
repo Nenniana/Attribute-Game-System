@@ -16,5 +16,4 @@ MonoBehaviour:
   attributes:
   - {fileID: 11400000, guid: c38e6dffce0db2f40b36c3ea1ac00975, type: 2}
   - {fileID: 11400000, guid: c297ac93013d93c44a2593ff23fd8ee9, type: 2}
-  - {fileID: 11400000, guid: b9b55ee48222d964f8c0d23f7a486598, type: 2}
   calculationGroup: {fileID: 11400000, guid: f3776d4d47f5ac2488a678b353392c6c, type: 2}
