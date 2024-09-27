@@ -1,6 +1,6 @@
 namespace AttributeSystem
 {
     public interface ITickable {
-        void Tick(float deltaTime);
+        bool Tick(float deltaTime);
     }
 }
