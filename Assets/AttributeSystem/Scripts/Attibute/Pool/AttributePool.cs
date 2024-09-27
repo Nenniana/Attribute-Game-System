@@ -31,7 +31,9 @@ namespace AttributeSystem
         {
             foreach (var member in members)
             {
-                member.AddAttributes(source.GetAttributes());
+                // Safe conversion and ensure members does not share mutable source
+                HashSet<EnhanceAttributeInstance> attributes = source.GetAttributes() as HashSet<EnhanceAttributeInstance> ?? new HashSet<EnhanceAttributeInstance>(source.GetAttributes());
+                member.AddAttributes(attributes);
             }
         }
 
@@ -39,7 +41,9 @@ namespace AttributeSystem
         {
             foreach (var member in members)
             {
-                member.RemoveAttributes(source.GetAttributes());
+                // Safe conversion and ensure members does not share mutable source
+                HashSet<EnhanceAttributeInstance> attributes = source.GetAttributes() as HashSet<EnhanceAttributeInstance> ?? new HashSet<EnhanceAttributeInstance>(source.GetAttributes());
+                member.RemoveAttributes(attributes);
             }
         }
 
