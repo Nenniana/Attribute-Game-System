@@ -8,7 +8,7 @@ namespace AttributeSystem {
     public class AttributeKeysAssetPostprocessor : AssetPostprocessor
     {
         private static readonly string AttributesPath = "Assets/AttributeSystem/ScriptableObjects/Attributes";
-        private static readonly string OutputFile = "Assets/AttributeSystem/Scripts/Attribute/AutoGeneration/AttributeKeys.cs";
+        private static readonly string OutputFile = "Assets/AttributeSystem/Scripts/Attibute/AutoGeneration/AttributeKeys.cs";
 
         private static void OnPostprocessAllAssets(
             string[] importedAssets,
